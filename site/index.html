@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Plotly CDN for plotting -->
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+</head>
+<body>
+    <h1>Weather Dashboard</h1>
+    <form id="weather-form">
+        <input type="text" id="city-input" placeholder="Enter city" required>
+        <button type="submit">Get Weather</button>
+    </form>
+    <div id="weather-output"></div>
+    <div id="plot"></div>
+    <script src="main.js"></script>
+</body>
+</html>

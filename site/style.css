@@ -1,0 +1,22 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 2em;
+    background: #f8faff;
+}
+h1 {
+    color: #333;
+}
+form {
+    margin-bottom: 1.5em;
+    text-align: center;
+}
+#plot {
+    width: 100%;
+    max-width: 700px;
+    height: 400px;
+    margin: auto;
+}
+#weather-output {
+    text-align: center;
+    margin-bottom: 1em;
+}
